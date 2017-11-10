@@ -1,0 +1,54 @@
+/*==========  Star MAP  ==========*/
+
+.planets-map {
+    width: 100%;
+}
+
+.planets-map tr{
+    display: block;
+    height: 70px;
+}
+
+.planets-map td{
+    display: inline-block;
+    width: 10%;
+    height: 100%;
+}
+
+.planet {
+    display: inline-block;
+    width: 70px;
+}
+
+/*******************************************
+
+	FRAME SELECTEUR MAP
+
+*******************************************/
+.frame-selecteur-map {
+    /*border: #36b8e2 solid 2px;
+    box-shadow: 0 0 6px #252525;
+    background-image: url('http://51.255.41.18/Aurora/asset/images/missions/m-bg.jpg');
+    background-position: center;
+    background-repeat: none;*/
+}
+
+.frame-selecteur-map-div-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 150px;
+}
+
+.frame-selecteur-map img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.texte-planete {
+    width: auto;
+    height: 150px;
+    overflow: hidden;
+    /*overflow-y: scroll;*/
+}

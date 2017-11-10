@@ -1,0 +1,65 @@
+INSERT INTO `Aurora`.`faction` (`idfaction`, `nom`, `desc`, `image`) VALUES (NULL, 'Alien', 'Les aliens sont apparus du jour au lendemain dans la galaxie, on ne sait ni pourquoi ni comment. C''est une race fière et avec des lois très complexe.', 'alien.png');
+INSERT INTO `Aurora`.`faction` (`idfaction`, `nom`, `desc`, `image`) VALUES (NULL, 'Les Pirates', 'Composés à la foi d''Humain et d''alien ils sont extrêmement dangereux. Ne voguant dans l''espace que pour piller et détruire les autres factions.', 'pirate.png');
+
+
+INSERT INTO `Aurora`.`faction` (`idfaction`, `nom`, `desc`, `image`) VALUES (NULL, 'La Fédération', 'La fédération est composé de l''alliance de toutes les planètes humaines du système. Elle à pour but de rendre le système solaire au humains et d’empêcher la prolifération alien et pirate.', 'federation.png');
+
+INSERT INTO `Aurora`.`planet` (`idplanet`, `planete_nom`, `desc`, `système`, `pos_x`, `pos_y`, `image`, `idfaction`) VALUES (NULL, 'P 1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis ac arcu id tincidunt. Maecenas odio sapien, finibus sed metus nec, semper facilisis erat. Etiam mattis fringilla ante, ut pretium lectus convallis in. Pellentesque sed hendrerit ante. Duis porta erat sit amet scelerisque tempus. Etiam et ligula pharetra, fringilla nisl in, scelerisque urna. Cras commodo mattis est, sed fringilla nisl pharetra non. Nam vel egestas ipsum, eu convallis massa. ', '1', '4', '8', 'Exoplanet.png', '1'), (NULL, 'P 2', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis ac arcu id tincidunt. Maecenas odio sapien, finibus sed metus nec, semper facilisis erat. Etiam mattis fringilla ante, ut pretium lectus convallis in. Pellentesque sed hendrerit ante. Duis porta erat sit amet scelerisque tempus. Etiam et ligula pharetra, fringilla nisl in, scelerisque urna. Cras commodo mattis est, sed fringilla nisl pharetra non. Nam vel egestas ipsum, eu convallis massa. ', '1', '2', '4', 'Exoplanet2.png', '2');
+
+
+INSERT INTO `Aurora`.`systeme` (`idsysteme`, `Nom`, `Desc`, `pos_x`, `pox_y`) VALUES (NULL, 'Orion', 'Le système de test.', '4', '5');
+
+INSERT INTO `Aurora`.`planet` (`idplanet`, `planete_nom`, `desc`, `pos_x`, `pos_y`, `image`, `idfaction`, `idsysteme`) VALUES (NULL, 'The void', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis ac arcu id tincidunt. Maecenas odio sapien, finibus sed metus nec, semper facilisis erat. Etiam mattis fringilla ante, ut pretium lectus convallis in. Pellentesque sed hendrerit ante. Duis porta erat sit amet scelerisque tempus. Etiam et ligula pharetra, fringilla nisl in, scelerisque urna. Cras commodo mattis est, sed fringilla nisl pharetra non. Nam vel egestas ipsum, eu convallis massa. ', '8', '8', 'Strange Thingy.png', '2', '1');
+INSERT INTO `Aurora`.`planet` (`idplanet`, `planete_nom`, `desc`, `pos_x`, `pos_y`, `image`, `idfaction`, `idsysteme`) VALUES (NULL, 'P 3', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis ac arcu id tincidunt. Maecenas odio sapien, finibus sed metus nec, semper facilisis erat. Etiam mattis fringilla ante, ut pretium lectus convallis in. Pellentesque sed hendrerit ante. Duis porta erat sit amet scelerisque tempus. Etiam et ligula pharetra, fringilla nisl in, scelerisque urna. Cras commodo mattis est, sed fringilla nisl pharetra non. Nam vel egestas ipsum, eu convallis massa. ', '7', '2', 'Exoplanet3.png', '1', '1');
+INSERT INTO `Aurora`.`planet` (`idplanet`, `planete_nom`, `desc`, `pos_x`, `pos_y`, `image`, `idfaction`, `idsysteme`) VALUES (NULL, 'Soleil', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam venenatis ac arcu id tincidunt. Maecenas odio sapien, finibus sed metus nec, semper facilisis erat. Etiam mattis fringilla ante, ut pretium lectus convallis in. Pellentesque sed hendrerit ante. Duis porta erat sit amet scelerisque tempus. Etiam et ligula pharetra, fringilla nisl in, scelerisque urna. Cras commodo mattis est, sed fringilla nisl pharetra non. Nam vel egestas ipsum, eu convallis massa. ', '5', '5', 'Sun.png', '3', '1');
+
+INSERT INTO `Aurora`.`item` (`idiitem`, `nom`, `desc`, `prix`, `image`, `spec`, `bonus`) VALUES (NULL, 'M300 - V1', 'Le M3000 est l''arme de prédilection des vaisseau haut de gamme humain ! Equipez vous en pour augmenter considérablement votre force de frappe.', '1500', 'wep1.png', 'Attaque', '15');
+
+INSERT INTO `Aurora`.`item` (`idiitem`, `nom`, `desc`, `prix`, `image`, `spec`, `bonus`) VALUES (NULL, 'M3500 - V2', 'Le M3500 est l''évolution logique du M3000, elle possède une force de frappe encore plus élevée que le M3000 mais consomme aussi deux fois moins d''énergie lors de ses tirs.', '3000', 'wep2.png', 'Attaque', '30');
+
+
+INSERT INTO `Aurora`.`item` (`idiitem`, `nom`, `desc`, `prix`, `image`, `spec`, `bonus`) VALUES (NULL, 'Xelirack - V1', 'Le Xelirack est une arme utilisé sur la plupart des vaisseaux aliens. Elle inflige d''assez lourd dégâts en concentrant de l''énergie pure sous forme de faisceau de lumière.', '3500', 'wep6.png', 'Attaque', '30');
+
+INSERT INTO `Aurora`.`item` (`idiitem`, `nom`, `desc`, `prix`, `image`, `spec`, `bonus`) VALUES (NULL, 'Destructor ', 'Le Destructor est l''arme de base des vaisseaux pirates.', '4000', 'wep8.png', 'Attaque', '40');
+
+INSERT INTO `Aurora`.`item` (`idiitem`, `nom`, `desc`, `prix`, `image`, `spec`, `bonus`) VALUES (NULL, 'X-Destructeur', 'Depuis le Destructor les temps ont bien changés...', '9000', 'wep9.png', 'Attaque', '50');
+
+INSERT INTO `Aurora`.`item` (`idiitem`, `nom`, `desc`, `prix`, `image`, `spec`, `bonus`) VALUES (NULL, 'K2700 - Gold', 'Vous êtes riches et vous possédez déjà un bon arsenal ? Montrez votre richesse aux autres joueurs en achetant cette arme à un prix fou !', '15000', 'wep3.png', 'Attaque', '55');
+
+INSERT INTO `Aurora`.`item` (`idiitem`, `nom`, `desc`, `prix`, `image`, `spec`, `bonus`) VALUES (NULL, 'K5000 - Gold', 'Là ça deviens vraiment indécent ! Cette arme coûte beaucoup trop chère, ne l''achetez pas vous n''êtes pas un pigeon ou alors vous êtes vraiment trop riche !', '30000', 'wep4.png', 'Attaque', '60');
+
+INSERT INTO `Aurora`.`item` (`idiitem`, `nom`, `desc`, `prix`, `image`, `spec`, `bonus`) VALUES (NULL, 'Hybrid - Prot 2', 'Cette arme est la combinaison parfaite des technologies humaines et aliens combinés. Elle inflige les plus lourd dégâts possible.', '15000', 'wep5.png', 'Attaque', '50');
+
+
+INSERT INTO `Aurora`.`news` (`idnews`, `titre`, `desc`, `image`, `date`, `iduser`) VALUES (NULL, 'Patch - 0.03v', 'Ca avance bien<br>
+- Avancement map<br>
+- Travail sur le market<br>
+- Cortana en cours de dev<br>', NULL, NOW(), '1');
+
+INSERT INTO `Aurora`.`spaceship` (`idspaceship`, `nom`, `desc`, `pv`, `attaque`, `defense`, `type`, `image`, `prix`, `xp`, `nextlevel`, `idfaction`) VALUES (NULL, 'Alien 1', 'Alien ship.', '350', '15', '3', '1', 'alien1.png', '750', '0', '100', '1');
+INSERT INTO `Aurora`.`spaceship` (`idspaceship`, `nom`, `desc`, `pv`, `attaque`, `defense`, `type`, `image`, `prix`, `xp`, `nextlevel`, `idfaction`) VALUES (NULL, 'Federation 1', 'Federaion Ship.', '350', '15', '3', '1', 'blue1.png', '750', '0', '100', '3');
+INSERT INTO `Aurora`.`spaceship` (`idspaceship`, `nom`, `desc`, `pv`, `attaque`, `defense`, `type`, `image`, `prix`, `xp`, `nextlevel`, `idfaction`) VALUES (NULL, 'Pirate 1', 'Pirate Ship.', '350', '17', '2', '1', 'RD1.png', '750', '0', '100', '2');
+INSERT INTO `Aurora`.`spaceship` (`idspaceship`, `nom`, `desc`, `pv`, `attaque`, `defense`, `type`, `image`, `prix`, `xp`, `nextlevel`, `idfaction`) VALUES (NULL, 'Alien 2', 'Alien ship.', '425', '25', '5', '2', 'alien2.png', '1500', '0', '100', '1');
+INSERT INTO `Aurora`.`spaceship` (`idspaceship`, `nom`, `desc`, `pv`, `attaque`, `defense`, `type`, `image`, `prix`, `xp`, `nextlevel`, `idfaction`) VALUES (NULL, 'Federation 2', 'Federation ship.', '1500', '25', '6', '2', 'att5.png', '1500', '0', '100', '3');
+INSERT INTO `Aurora`.`spaceship` (`idspaceship`, `nom`, `desc`, `pv`, `attaque`, `defense`, `type`, `image`, `prix`, `xp`, `nextlevel`, `idfaction`) VALUES (NULL, 'Big Pirate Ship', 'Big irate ship.', '1000', '32', '8', '3', 'redship4.png', '2500', '0', '100', '2');
+INSERT INTO `Aurora`.`mission` (`idmission`, `nom`, `niveau`, `desc`, `image`, `levelquest`, `idplanet`) VALUES (NULL, 'Le grand jour - History Quest', '1', 'C''est l''heure pour vous de partir à l''aventure. Ayant enfin rassembler suffisamment d''argent pour pouvoir intégrer une faction et choisir vôtre premier vaisseau, vous vous élancez alors vers de nouveau horizon. Cette mission sera votre premier test face à un ennemie plus que faible...', 'm1.jpg', '0', '2');
+INSERT INTO `Aurora`.`ressources_mission` (`idressources`, `aqua`, `ruby`, `emerald`, `topaz`, `money`, `xp`, `energie`, `idmission`) VALUES (NULL, '1', '1', '1', '1', '50', '10', '2', '1');
+INSERT INTO `Aurora`.`IA` (`idIA`, `nom`, `pv`, `attaque`, `defense`, `image`, `type`) VALUES (NULL, 'Pirate Leger', '150', '5', '2', 'F5S3.png', '1');
+INSERT INTO `Aurora`.`ennemi` (`idIA`, `idmission`) VALUES ('1', '1');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

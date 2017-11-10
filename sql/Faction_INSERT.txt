@@ -1,0 +1,5 @@
+INSERT INTO `Aurora`.`faction` (`idfaction`, `nom`, `desc`, `image`) VALUES (NULL, 'Alien', 'Les aliens sont apparus du jour au lendemain dans la galaxie, on ne sait ni pourquoi ni comment. C''est une race fière et avec des lois très complexe.', 'alien.png');
+INSERT INTO `Aurora`.`faction` (`idfaction`, `nom`, `desc`, `image`) VALUES (NULL, 'Les Pirates', 'Composés à la foi d''Humain et d''alien ils sont extrêmement dangereux. Ne voguant dans l''espace que pour piller et détruire les autres factions.', 'pirate.png');
+
+
+INSERT INTO `Aurora`.`faction` (`idfaction`, `nom`, `desc`, `image`) VALUES (NULL, 'La Fédération', 'La fédération est composé de l''alliance de toutes les planètes humaines du système. Elle à pour but de rendre le système solaire au humains et d’empêcher la prolifération alien et pirate.', 'federation.png');

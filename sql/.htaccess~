@@ -1,0 +1,4 @@
+# No index files
+Options -Indexes
+
+# Deny from all

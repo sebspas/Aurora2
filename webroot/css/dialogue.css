@@ -1,0 +1,21 @@
+/*
+    Definition des frames de dialogue
+
+*/
+
+.cortana {
+    margin-bottom: 10px;
+}
+
+.cortana-frame {
+    display: inline-block;
+    min-width: 400px;
+    min-height: 50px;
+}
+
+.cortana-img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    padding-right: 5px;
+}

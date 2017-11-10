@@ -1,0 +1,166 @@
+/*==========  components.css  ==========*/
+/**
+* @content : Definition of reusable components
+* 			 specified for this website.
+*
+**/
+
+/*=========== Bandeau Alpha ==============*/
+.alpha {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+
+}
+.alpha img {
+	width: 130px;
+}
+/*==========  HEADER  ==========*/
+
+#header {
+	display: block;
+	width: 100%;
+	min-height: 20px;
+	padding-bottom: 25px;
+}
+/*=========== main ==============*/
+#main {
+	margin-top: 80px;
+}
+/*=========== img ==============*/
+img {
+	width: 100%;
+	height: auto;
+}
+/*==========  LOGINBOX  ==========*/
+    .loginbox {
+        display: none;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        padding: 30px;
+        margin-top: 0;
+        z-index: 5;
+    }
+
+/*==========  PROFIL-AVATAR  ==========*/
+	.avatar {
+		display: inline-block;
+		width: 35px;
+		height: 35px;
+		border-radius: 0;
+	}
+
+	.avatar-com {
+		display: inline-block;
+		width: 60px;
+		height: 60px;
+		border-radius: 0;
+		margin: 15px;
+	}
+
+/*==========  FULLFRAME  ==========*/
+	.fullframe {
+		display: block;
+		position: fixed;
+		top : 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0, 0.7);
+		z-index: 1;
+	}
+/*==========  Panel Faction  ==========*/
+.panel-faction {
+    display: block;
+    height: 100vh;
+    padding: 0;
+}
+.full-heigth {
+    height: 100vh;
+}
+.img-faction {
+    height: 200px;
+}
+.panel-faction img {
+    display: block;
+    width: 150px;
+    max-height: 200px;
+    margin: 0 auto;
+}
+
+.text-faction {
+    font-size: 18px;
+    height: 300px;
+}
+.btn-faction {
+    display: block;
+    margin:  0px;
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+.faction2 {
+    background-image: url('../images/pirate-light.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.faction3 {
+    background-image: url('../images/federation.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.faction1 {
+    background-image: url('../images/alien.jpg');
+    background-position: center;
+    background-size: cover;
+}
+/*==========  LOGIN-FORM  ==========*/
+	.forgot-form {
+		display: none;
+	}
+
+	#ship-option, #item-option {
+		overflow: hidden;
+	}
+
+/*==========  SHIP IMG (boutique, ...)  ==========*/
+.ship-container {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	height: 100px;
+}
+.ship-img {
+	display: block;
+	margin: 0 auto;
+	max-width: 50px;
+}
+
+
+/*==========  Classement ==========*/
+.img-container {
+    display: block;
+    margin: 0 auto;
+    height: 75px;
+}
+.img-in-container {
+    display: block;
+    margin: 0 auto;
+    max-width: 50px;
+}
+
+/*==========  Alert message ==========*/
+.alert-msg {
+    position: absolute;
+    display: block;
+    top: 90px;
+	width: 350px;
+    min-height: 90px;
+    margin: 0 auto;
+    font-size: 21px;
+}

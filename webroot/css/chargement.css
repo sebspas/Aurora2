@@ -1,0 +1,42 @@
+/* Loader Perso */
+.loader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    z-index: 2;
+    overflow: hidden;
+}
+.loader-content {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 20%;
+    z-index: 3;
+    width: 150px;
+}
+#img-loader{
+    z-index: 3;
+    display: block;
+    width: 150px;
+}
+#left {
+    width: 50%;
+    height: 100%;
+    left: 0;
+    background-color: #3498db;
+    float: left;
+}
+#right{
+    width: 50%;
+    height: 100%;
+    background-color: #3498db;
+    float:left;
+}
+.loader h2 {
+    display: block;
+    position: fixed;
+    font-size: 2em;
+    color: #fff;
+}
+/* Fin loader  Perso */

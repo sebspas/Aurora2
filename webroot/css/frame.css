@@ -1,0 +1,29 @@
+.frame-border {
+    border: #36b8e2 solid 2px;
+    box-shadow: 0 0 6px #252525;
+}
+
+.frame-mission {
+    background-image: url('http://51.255.41.18/Aurora/asset/images/missions/m-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.frame-ship {
+    max-width: 300px;
+    max-height: 250px;
+}
+
+.frame-vaisseau-selection {
+    width: auto;
+    height: 300px;
+    overflow: auto;
+}
+.frame-vaisseau-selection-mission {
+    display: inline-block;
+    width: 90%;
+    margin: 10px;
+}
+.img-frame {
+    width: auto;
+}

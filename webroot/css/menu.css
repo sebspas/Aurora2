@@ -1,0 +1,147 @@
+/*==========  MENU  ==========*/
+.menu {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 70%;
+    background: rgba(25,25,25, 0.7);
+    border-bottom: #36b8e2 solid 2px;
+    box-shadow: -6px 0 6px #252525;
+    z-index: 2;
+}
+
+.menu:before {
+    content: "";
+    position: fixed;
+
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: rgba(25,25,25, 0.7);
+    top: 0px;
+    left: 70%;
+
+    z-index: 2;
+    border-bottom: #36b8e2 solid 2px;
+    box-shadow: 6px 0 6px #252525;
+    transform-origin: 0px 0px 0px;
+    transform: skewY(-48deg);
+}
+
+.menu-navigation {
+    display: block;
+}
+
+.menu-list {
+    display: inline-block;
+    height: auto;
+    margin-left: 15px;
+    margin-top: 45px;
+}
+
+/*==========  MENU-AVATAR  ==========*/
+.menu-avatar {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    float: right;
+    margin-top: 1px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.menu-avatar img, .avatar img {
+    display: block;
+    width: 48px;
+    height: 48px;
+}
+
+/*==========  MENU-BOX  ==========*/
+
+.menu-box {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(25,25,25, 0.8);
+    z-index: 1;
+
+}
+
+.menu-bg {
+    display: block;
+    position: fixed;
+    top: 15%;
+    left: 40%;
+    width: 290px;
+    height: auto;
+}
+
+.menu-box ul {
+    display: block;
+    height: 250px;
+}
+
+.menu-box li {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    width: 100%;
+    height: 90px;
+    background-size: cover;
+    opacity: 0.7;
+    transition-duration: 0.6s;
+}
+
+.menu-box li:hover {
+    opacity: 1;
+}
+
+.menu-link {
+    display: block;
+    color: #36b8e2;
+    font-family: Exo2;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    line-height: 70px;
+    transition-duration: 0.6s;
+}
+
+.menu-link:hover, a.current {
+    text-decoration: underline;
+    color: #f8f8f8;
+    text-shadow:  2px 2px #f8f8f8;
+}
+
+/* Image fond menu */
+.home {
+    background: url('../images/home.jpg') no-repeat 0% 0%;
+    background-position: center;
+}
+
+.profil {
+    background: url('../images/bg-profil.jpg') no-repeat 0% 0%;
+    background-position: center;
+}
+
+.market {
+    background: url('../images/market.jpg') no-repeat 0% 0%;
+    background-position: center;
+}
+
+
+.hangar {
+    background: url('../images/hangar.jpg') no-repeat 0% 0%;
+    background-position: center;
+}
+
+.labo {
+    background: url('../images/lab.jpg') no-repeat 0% 0%;
+    background-position: center;
+}

@@ -1,0 +1,129 @@
+/*==========  5 - COLOR-ELEMENTS  ==========*/
+/* Background-color */
+.white {
+    background-color: #f8f8f8;
+}
+
+.white2 {
+    background-color: #fff;
+}
+
+.black1 {
+    background-color: #252525;
+}
+
+.black2 {
+    background-color: rgba(66, 66, 66, 0.7);
+}
+
+.red0 {
+    background-color: #D11001;
+}
+
+.red1 {
+    background-color: #E02020;
+}
+
+.red2 {
+    background-color: #EE4444;
+}
+
+.red3 {
+    background-color: #FF6766;
+}
+
+.blue1 {
+    background-color: #0e284f;
+}
+
+.blue2 {
+    background-color: #2b4e7b;
+}
+
+.blue3 {
+    background-color: #0099ee;
+}
+
+.cyan0 {
+    background-color: #008B8B;
+}
+
+.cyan1 {
+    background-color: #00A8AB;
+}
+
+.cyan2 {
+    background-color: #33BBBB;
+}
+
+.cyan3 {
+    background-color: #6BCBCA;
+}
+
+.green0 {
+    background-color: #297273;
+}
+
+.green1 {
+    background-color: #53872A;
+}
+
+.green2 {
+    background-color: #85C630;
+}
+
+.green3 {
+    background-color: #99E394;
+}
+
+/* Transparent-Background-color */
+.t-white {
+    background-color: rgba(225, 225, 225, 0.7);
+}
+
+.t-black {
+    background-color: rgba(25, 25, 25, 0.7);
+}
+
+/* Color */
+.c-black {
+    color: #252525;
+}
+
+.c-white {
+    color: #f8f8f8;
+}
+
+.c-green2 {
+    color: #85C630;
+}
+
+.c-blue1 {
+    color: #0e284f;
+}
+
+.c-blue2 {
+    color: #2b4e7b;
+}
+
+.c-blue3 {
+    color: #0099ee;
+}
+
+.c-red2 {
+    color: #EE4444;
+}
+
+.c-red3 {
+    color: #c0392b;
+}
+
+.c-orange1 {
+    color: #d35400;
+}
+
+.c-purple1 {
+    color: #8e44ad;
+}
+
+/*-----  End of COLOR-ELEMENTS  ------ */

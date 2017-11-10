@@ -1,0 +1,73 @@
+/*==========  FOOTER  ==========*/
+#footer {
+    display: block;
+    background: #252525;
+    width: auto;
+    min-height: 320px;
+    padding-top: 35px;
+}
+
+
+.post {
+    display: block;
+    width: 60%;
+    margin: 20px 0 10px 0;
+}
+
+.post a {
+    text-decoration: none;
+    color: #f8f8f8;
+}
+
+.post-author {
+    display: inline-block;
+    font-size: 1.3em;
+    font-family: Exo2;
+    text-decoration: underline;
+}
+
+.post-date {
+    margin-top: 5px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.post-content {
+    font-size: 1.1em;
+    font-family: Hallo;
+    text-align: justify;
+}
+
+
+
+.team {
+    margin-top: 120px;
+}
+
+
+.registered:hover {cursor: pointer;}
+
+.circle {
+    display: block;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+}
+
+.circle-span {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1.5em;
+    line-height: 115px;
+
+}
+
+.copyright {
+    color: #f8f8f8;
+}
+
+.copyright a {
+    color: #f8f8f8;
+}

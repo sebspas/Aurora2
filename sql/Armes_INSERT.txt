@@ -1,0 +1,16 @@
+INSERT INTO `Aurora`.`item` (`idiitem`, `nom`, `desc`, `prix`, `image`, `spec`, `bonus`) VALUES (NULL, 'M300 - V1', 'Le M3000 est l''arme de prédilection des vaisseau haut de gamme humain ! Equipez vous en pour augmenter considérablement votre force de frappe.', '1500', 'wep1.png', 'Attaque', '15');
+
+INSERT INTO `Aurora`.`item` (`idiitem`, `nom`, `desc`, `prix`, `image`, `spec`, `bonus`) VALUES (NULL, 'M3500 - V2', 'Le M3500 est l''évolution logique du M3000, elle possède une force de frappe encore plus élevée que le M3000 mais consomme aussi deux fois moins d''énergie lors de ses tirs.', '3000', 'wep2.png', 'Attaque', '30');
+
+
+INSERT INTO `Aurora`.`item` (`idiitem`, `nom`, `desc`, `prix`, `image`, `spec`, `bonus`) VALUES (NULL, 'Xelirack - V1', 'Le Xelirack est une arme utilisé sur la plupart des vaisseaux aliens. Elle inflige d''assez lourd dégâts en concentrant de l''énergie pure sous forme de faisceau de lumière.', '3500', 'wep6.png', 'Attaque', '30');
+
+INSERT INTO `Aurora`.`item` (`idiitem`, `nom`, `desc`, `prix`, `image`, `spec`, `bonus`) VALUES (NULL, 'Destructor ', 'Le Destructor est l''arme de base des vaisseaux pirates.', '4000', 'wep8.png', 'Attaque', '40');
+
+INSERT INTO `Aurora`.`item` (`idiitem`, `nom`, `desc`, `prix`, `image`, `spec`, `bonus`) VALUES (NULL, 'X-Destructeur', 'Depuis le Destructor les temps ont bien changés...', '9000', 'wep9.png', 'Attaque', '50');
+
+INSERT INTO `Aurora`.`item` (`idiitem`, `nom`, `desc`, `prix`, `image`, `spec`, `bonus`) VALUES (NULL, 'K2700 - Gold', 'Vous êtes riches et vous possédez déjà un bon arsenal ? Montrez votre richesse aux autres joueurs en achetant cette arme à un prix fou !', '15000', 'wep3.png', 'Attaque', '55');
+
+INSERT INTO `Aurora`.`item` (`idiitem`, `nom`, `desc`, `prix`, `image`, `spec`, `bonus`) VALUES (NULL, 'K5000 - Gold', 'Là ça deviens vraiment indécent ! Cette arme coûte beaucoup trop chère, ne l''achetez pas vous n''êtes pas un pigeon ou alors vous êtes vraiment trop riche !', '30000', 'wep4.png', 'Attaque', '60');
+
+INSERT INTO `Aurora`.`item` (`idiitem`, `nom`, `desc`, `prix`, `image`, `spec`, `bonus`) VALUES (NULL, 'Hybrid - Prot 2', 'Cette arme est la combinaison parfaite des technologies humaines et aliens combinés. Elle inflige les plus lourd dégâts possible.', '15000', 'wep5.png', 'Attaque', '50');

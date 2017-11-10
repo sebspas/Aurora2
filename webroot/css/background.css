@@ -1,0 +1,82 @@
+/*
+    Definition des background des pages
+*/
+
+/*==========  BACKGROUND  ==========*/
+
+.bg{
+    display: block;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    z-index: -5;
+    background-position: center !important;
+}
+
+#bg-login {
+    background: url('../images/bg-login.jpg') no-repeat fixed 0% 0%;
+    background-size: cover;
+}
+
+
+#bg-home {
+    background: url("../images/space-map.jpg") no-repeat;
+    background-size: cover;
+}
+
+
+#bg-market {
+    background: url('../images/market.jpg') no-repeat;
+    background-size: cover;
+}
+
+#bg-market-npc {
+    background: url('../images/market.jpg') no-repeat;
+    background-size: cover;
+}
+
+
+
+#bg-hangar {
+    background: url('../images/hangar.jpg') no-repeat;
+    background-size: cover;
+}
+
+
+#bg-profil {
+    background: url('../images/bg-profil.jpg') no-repeat;
+    background-size: cover;
+}
+
+#bg-bib {
+    background: url('../images/home.jpg') no-repeat;
+    background-size: cover;
+}
+
+/********************************************************
+    COMBAT - BG PLANETES
+***************************************************/
+#bg-combat {
+    z-index: -2;
+    background: url('../images/blue-space.jpg') no-repeat;
+    background-size: cover;
+}
+#bg-planet {
+    z-index: -1;
+    background-position: right;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+#bg-planet-test {
+    z-index: -1;
+    background: url('../images/planets/Exoplanet2.png') no-repeat;
+    background-position: right;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+
+
