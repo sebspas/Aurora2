@@ -22,7 +22,7 @@ class BD {
     public function __construct($table){
         if (self::$db == null) {
             try {
-                self::$db = new PDO('mysql:host=127.0.0.1;dbname=Aurora', 'root', 'aqwEDCtgb7;');
+                self::$db = new PDO('mysql:host=127.0.0.1;dbname=Aurora', 'sebspas', 'aqwedc7');
                 self::$db->exec('SET CHARACTER SET utf8');
                 if(true)
                     self::$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
